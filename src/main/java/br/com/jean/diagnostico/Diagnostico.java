@@ -6,4 +6,6 @@ public abstract class Diagnostico {
     public Diagnostico(String[] sintomasComuns) {
         this.sintomasComuns = sintomasComuns;
     }
+
+    public abstract String avaliarPaciente(String[] sintomasInformados);
 }
