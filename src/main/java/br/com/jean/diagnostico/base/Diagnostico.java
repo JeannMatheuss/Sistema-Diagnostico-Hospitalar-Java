@@ -1,3 +1,5 @@
+package br.com.jean.diagnostico.base;
+
 public abstract class Diagnostico {
     protected String[] sintomasComuns;
 
