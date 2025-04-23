@@ -1,5 +1,3 @@
-package br.com.jean.diagnostico;
-
 public abstract class Diagnostico {
     protected String[] sintomasComuns;
 
@@ -8,4 +6,10 @@ public abstract class Diagnostico {
     }
 
     public abstract String avaliarPaciente(String[] sintomasInformados);
+
+    public void exibirSintomasComuns() {
+        for (String sintoma : sintomasComuns) {
+            System.out.println("- " + sintoma);
+        }
+    }
 }
